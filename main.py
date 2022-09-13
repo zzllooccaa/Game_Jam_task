@@ -1,0 +1,27 @@
+import os
+
+
+path_icon_menu = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/Icon.png")
+path_sound_menu = os.path.join(os.path.dirname(__file__), "RESOURCE/SOUND/menu_sound.mp3")
+path_sound_game = os.path.join(os.path.dirname(__file__), "RESOURCE/SOUND/game_sound.mp3")
+path_background_menu = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/BACKGROUND_MENU.jpg")
+path_button_play = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/play_button.png")
+path_button_about = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/about_button.png")
+path_button_quit = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/quit_button.png")
+path_background_game = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/Game_background.png")
+path_background_about = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/About.png")
+path_button_back = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/back_button.png")
+path_player = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/")
+path_score_image = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/score.png")
+path_image_back_in_game = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/Ball.png")
+path_zvezda = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/shurikan.png")
+path_enemy = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/clock.png")
+path_bonus = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/bonus.png")
+path_scary = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/Scary.png")
+path_game_over = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/game-over.png")
+path_game_over2 = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/game-over2.png")
+path_game_over_sound = os.path.join(os.path.dirname(__file__), "RESOURCE/SOUND/game_over_sound.ogg")
+path_game_entry_image = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/Entry_game.png")
+path_game_hp_bar_monk = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/player_monk.png")
+path_game_poison_bottle = os.path.join(os.path.dirname(__file__), "RESOURCE/IMAGES/poison.png")
+
