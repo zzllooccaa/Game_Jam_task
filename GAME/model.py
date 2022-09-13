@@ -57,7 +57,7 @@ class Player(pygame.sprite.Sprite):
 
         # levo
         if self.movex < 0 :
-            print(self.movex)
+            # print(self.movex)
             self.frame += 1
             if self.frame > 3 * ani:
                 self.frame = 0

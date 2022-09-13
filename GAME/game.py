@@ -129,14 +129,16 @@ def RUN():
                 from GAME_OVER.game_over import Over
                 Over()
                 run = False
+                score1 += 1
                 # print("otrovan")
 
             if pygame.sprite.groupcollide(enemy_spawner.enemy_group, player_list, True, False):
                 global max_hp
                 max_hp = max_hp - 50
-                print(max_hp)
+                # print(max_hp)
                 if max_hp == 0:
                     max_hp += 200
+                    score1 += 1
                     channel.stop()
                     from GAME_OVER.game_over import Over
                     Over()
